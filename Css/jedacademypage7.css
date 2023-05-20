@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: square !important;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+}
+.banner{  
+    background-image: url(../Image/image\ 18.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: disc;
+    list-style-type: disc !important;
+    margin: 0 10px;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+li a{
+    color: aliceblue;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.visidan-misi-text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 40px;
+}
+.visi-smp{
+    margin-top: 60px;
+    
+    background-color: rgba(1, 147, 220, 0.7);
+}
+.visi-misi-head{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+    background-color: #2BA7E2;
+    margin-top: 50px;
+}
+.visi-misi-body{
+    margin: 40px 0 50px 30px;
+    
+    color: #3A4E50;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.visi-misi{
+    margin-top: 50px;
+    margin-bottom: 50px;  
+   background: #FFFFFF;
+   border-radius: 10px;
+   width: 45%;
+   height: 350px;
+}
+.visi-misi ul li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3A4E50;
+    margin: 30px ;
+    list-style: disc !important;
+}
+
+.diharap{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background: #FFFFFF;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.diharap-head{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    justify-content: center; 
+    display: flex;
+    color: #FFFFFF;
+    background-color: #2BA7E2;
+    border-radius: 5px;
+}
+.diharap ol li{  
+    margin: 20px 0 10px 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    list-style-type:decimal !important;
+    list-style-position: inside;
+}
+.strategi{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background: #FFFFFF;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.strategi-head{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;  
+    background-color: #2BA7E2;
+    border-radius: 5px;
+  
+}
+.strategi-body{
+    margin: 20px 0 10px 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+    color: #3A4E50;
+    padding: 20px;
+}
+
+.imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+ footer{
+    margin-top: 50px;
+}

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+}
+.banner{  
+    background-image: url(../Image/image\ 18.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+
+    
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+li a{
+    color: aliceblue;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.berita-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+     color:#FFFFFF;
+}
+.berita-head p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.berita-baru{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.berita-head-texts{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.see-all{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2BA7E2;
+}
+.berita-body {
+ display: flex;
+ justify-content: space-around;
+ gap: 70px;
+ flex-direction: row;
+    
+    
+    
+    
+}
+.berita-head-texts{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.into-span{
+    color: #2BA7E2;
+    
+}
+.berita-belajar-head{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.berita-belajar-body{
+    color: #919FAE;
+}
+.berita-belajar img{
+    width: 350px;
+    height: 250px;
+    margin: 30px 0 50px 0;
+}
+.berita-belajar{
+    max-width: 300px;
+}
+.mengajar-menus{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.body-mengajar{
+    margin-left: 50px;
+}
+.mengajar-head{
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0C101A;
+}
+
+.mengajar-body{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #919FAE;
+}
+.mengajar-button{
+    margin-top: 40px ;
+    width: 184px;
+    height: 40px;
+    background-color: #0193DC;
+    border-radius: 4px;
+    border: 2px solid #0193DC;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.berita-main-content2{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+       
+}
+.berita-main-content2 .berita-body{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.posts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    max-width: 606px;
+    flex-wrap: wrap;
+    
+}
+.post-body{
+    box-sizing: border-box;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0 30px 0 ;
+    border-radius: 50px;
+    
+    border: 1px solid #2BA7E2;
+    color:  #919FAE;;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.post-head{
+    margin-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+ footer{
+    margin-top: 50px;
+}

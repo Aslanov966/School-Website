@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+    z-index: 999;
+}
+.banner{  
+    background-image: url(../Image/image\ 18.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+
+    
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+li a{
+    color: aliceblue;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.head-texts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.head-text{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+}
+.body-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #DFDFDF;
+}   
+.input-name-email {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 100px auto 0 100px;
+    flex-wrap: wrap;
+    
+}
+div label{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #BFBFBF;
+ 
+}
+.input-email{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #BFBFBF;
+
+
+
+
+}
+.telp-p{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.nol-telp input,
+.pesan input{
+    width: 800px;
+}
+.input-name-email div{
+  width: 80%;
+}
+.input-name-email div.row{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.input-name-email input{
+background-color: #c1cce1;
+border: 2px;
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 50px;
+}
+.pesan-p{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 10px; 
+}
+.pesan input{
+    height: 200px;
+}
+.name-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-email button{
+   
+    margin-top: 59px;
+    width: 144px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0193DC;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    
+}
+
+.g-maps{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+ }
+
+
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer{
+    margin-top: 50px;
+}
+

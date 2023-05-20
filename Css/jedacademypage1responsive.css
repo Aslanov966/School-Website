@@ -1,0 +1,512 @@
+@media only screen and (min-width:1400px) {
+  .container {
+    max-width:1320px;
+  }
+  .row{
+    max-width: 1200px;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        max-width:540px;
+        
+    }
+    .banner{
+        min-width: 576px;
+    }
+    .container .row {
+        flex-direction: column;
+        
+    }
+    .container nav{
+        display: none;
+    }
+    .button-navbar{
+        display: block !important;
+        
+        
+    }
+    .video,
+    .title{
+        width: 98%;
+    }
+    .title{
+        text-align: center;
+        
+    }
+    .header-cont-ban{
+        text-align: center;
+    }
+    .details .profile{
+        width: 100%;
+        
+    }
+    .details{
+        text-align: center;
+        width: 100%;
+       
+    }
+    .services{
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .services div{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .services h1{
+        text-align: center;
+        width: 100%;
+    }
+    .services .logo img{
+    width: 100%;
+    }
+    .services h1,p{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+        
+    }
+    .justify-content-start{
+        justify-content: flex-start;
+    }
+    .mid-nav{
+        width: 100%;
+        text-align: center;
+        align-items: center;        
+    }
+    .search{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .align-items-start {
+        align-items: center;
+        
+    }
+    .portfolio{
+        
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+       justify-content: center;
+       
+         
+       
+       }
+    .portfolio section{
+        
+        width: 100%;
+        text-align: center;
+        align-items:center;
+        display: block;
+    }
+    .jobs{
+        width: 100%;
+        text-align: center;
+    }
+    .jobs div{
+        
+        width: 100%; 
+        flex-direction: column;
+        
+        text-align: center;
+       
+    }
+    .jobs span {
+        
+        margin: auto;
+    }
+
+    .righticon2{
+       
+       width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+    .sectiongallery{
+        
+        width:100%;
+        margin: 0 ;
+        padding: 0;
+         
+        
+    }
+    .sectiongallery span{
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+    .sectiongallery button{
+        
+        margin:auto;
+              
+    }
+    .sectiongallery .gallery div{ 
+        margin: 0;
+        width: 100%;
+        flex-direction: column;   
+        
+    }
+    .sectiongallery .gallery div img {
+        width: 100%;
+        margin: 0;
+    }    
+    footer{
+       
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display:inline-block;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px) {
+
+    .container {
+        max-width:540px;
+        
+    }
+    .banner{
+        min-width: 1140px;
+    }
+    .container .row {
+        flex-direction: column;
+        
+    }
+    .container nav{
+        display: none;
+    }
+    .button-navbar{
+        display: block !important;
+        
+        
+    }
+    .video,
+    .title{
+        width: 98%;
+    }
+    .title{
+        text-align: center;
+        
+    }
+    .header-cont-ban{
+        text-align: center;
+    }
+    .details .profile{
+        width: 100%;
+        
+    }
+    .details{
+        text-align: center;
+        width: 100%;
+       
+    }
+    .services{
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .services div{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .services h1{
+        text-align: center;
+        width: 100%;
+    }
+    .services .logo img{
+    width: 100%;
+    }
+    .services h1,p{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+        
+    }
+    .justify-content-start{
+        justify-content: flex-start;
+    }
+    .mid-nav{
+        width: 100%;
+        text-align: center;
+        align-items: center;        
+    }
+    .search{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .align-items-start {
+        align-items: center;
+        
+    }
+    .portfolio{
+        
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+       justify-content: center;
+       
+         
+       
+       }
+    .portfolio section{
+        
+        width: 100%;
+        text-align: center;
+        align-items:center;
+        display: block;
+    }
+    .jobs{
+    width: 100%;
+        text-align: center;
+    }
+    .jobs div{
+        
+        width: 100%; 
+        flex-direction: column;
+        
+        text-align: center;
+       
+    }
+    .jobs span {
+        
+        margin: auto;
+    }
+
+    .righticon2{
+       
+       width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+    .sectiongallery{
+        
+        width:100%;
+        margin: 0 ;
+        padding: 0;
+         
+        
+    }
+    .sectiongallery span{
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+    .setiongallery button{
+    
+        margin:auto;
+              
+    }
+    .sectiongallery .gallery div{ 
+        margin: 0;
+        width: 100%;
+        flex-direction: column;   
+        
+    }
+    .sectiongallery .gallery div img {
+        width: 100%;
+        margin: 0;
+    }    
+    footer{
+           
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display:inline-block;
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    .container {
+        max-width:100%;
+        
+    }
+    .banner{
+        min-width: 576px;
+    }
+    .container .row {
+        flex-direction: column;
+        
+    }
+    .container nav{
+        display: none;
+    }
+    .button-navbar{
+        display: block !important;
+        
+        
+    }
+    .video,
+    .title{
+        width: 98%;
+    }
+    .title{
+        text-align: center;
+        
+    }
+    .header-cont-ban{
+        text-align: center;
+    }
+    .details .profile{
+        width: 100%;
+        
+    }
+    .details{
+        text-align: center;
+        width: 100%;
+       
+    }
+    .services{
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .services .fasilitas,
+.services .lokasi,
+.services .sejarah,
+.services .prestasi {
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+    .services div{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .services h1{
+        text-align: center;
+        width: 100%;
+    }
+    .services .logo img{
+    width: 100%;
+    }
+    .services h1,p{
+        width: 100%;
+    }
+    .about{
+        max-width: 100%;
+        
+    }
+    .justify-content-start{
+        justify-content: flex-start;
+    }
+    .mid-nav{
+        width: 100%;
+        text-align: center;
+        align-items: center;        
+    }
+    .search{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .align-items-start {
+        align-items: center;
+        
+    }
+    .portfolio{
+        
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+       justify-content: center;
+       
+         
+       
+       }
+    .portfolio section{
+        
+        width: 100%;
+        text-align: center;
+        align-items:center;
+        display: block;
+    }
+    .jobs{
+        width: 100%;
+        text-align: center;
+    }
+    .jobs div{
+        
+        width: 100%; 
+        flex-direction: column;
+        
+        text-align: center;
+       
+    }
+    .jobs span {
+        
+        margin: auto;
+    }
+
+    .righticon2{
+       
+       width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+    .sectiongallery{
+        
+        width:100%;
+        margin: 0 ;
+        padding: 0;
+         
+        
+    }
+    .sectiongallery span{
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+    .sectiongallery button{
+        
+        margin:auto;
+              
+    }
+    .sectiongallery .gallery div{ 
+        margin: 0;
+        width: 100%;
+        flex-direction: column;   
+        
+    }
+    .sectiongallery .gallery div img {
+        width: 100%;
+        margin: 0;
+    }    
+    footer{
+       
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display:inline-block;
+    }
+
+}

@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+}
+.banner{  
+    background-image: url(../Image/image\ 18.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+
+    
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+li a{
+    color: aliceblue;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container .text-area1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+   
+}
+.text-area1 .text-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.text-area1 .text-body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+.infotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px 0 0 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.logos{
+    color:#FFBF00;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.head-info{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+.info-blocks .logo img  {
+  width: 75px; 
+  margin:  30px 0 -10px 0 ;
+
+}
+.info-blocks{
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;      
+   text-align: center ;
+   margin-top: 40px;
+}
+.infoblock1{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #2BA7E2;
+    border-radius: 10px;
+    
+
+}
+.infoblock2{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #2BA7E2;
+    border-radius: 10px;
+   
+}
+.infoblock3{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #2BA7E2;
+    border-radius: 10px;
+
+}
+.logos{
+    margin: 50px 0 -10px 0 ;
+    font-size: 25px;
+}
+
+ .meeting{
+   
+  
+
+    background-color: #2BA7E2;
+}
+  .meeting .meeting-text{
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+   color: #FFFFFF;
+   width: 60%;
+   margin: 50px  0 0px  60px;
+
+}
+ .meeting img{
+    border-radius: 5px;
+    width: 30%;
+}
+ .meeting button{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#FFFFFF;
+    margin-left:100px;
+    margin-bottom: 50px;
+    width: 184px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+ .meeting .text-imgs{
+    margin-top:80px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+ footer{
+    margin-top: 50px;
+}
+
+

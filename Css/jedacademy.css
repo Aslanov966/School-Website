@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+}
+
+.banner{  
+  background-image: url(../Image/image\ 18.png);
+  height: 400px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+.button-navbar {
+    display: none; 
+}
+.button-navbar button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+     color: #FFFFFF;
+}
+
+
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li a{
+    color: aliceblue;
+}
+
+section div h4{
+    margin-bottom: 25px;
+    color: aliceblue;
+}
+section div h3{
+    color: aliceblue;
+    
+}
+section div button{
+    margin-top: 59px;
+    width: 144px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0193DC;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+.video{
+    width: 50%;
+    margin-top: 75px;
+}
+.title{
+    width: 50%;
+    margin-top: 75px;
+    font-weight: 100;
+}
+
+.title h5{
+ margin-top: 16px;
+ line-height: 32px;
+ font-size: 22px;
+ color:#919FAE;
+ 
+ 
+}
+.title button{
+    margin-top: 59px;
+    width: 144px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0193DC;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.details .profile{
+    width: 640px;
+    margin-top: 195px;
+    
+}
+
+.profile p{
+    line-height: 32px;
+    font-size: 22px;
+    color:#919FAE;
+    margin-top: 16px;
+}
+.profile button{
+    margin-top: 51px;
+    width: 144px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0193DC;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+.fasilitas p{
+    line-height: 32px;
+    font-size:  20px;
+    color:#919FAE;
+    margin-top: 16px;
+}
+.fasilitas .logo img{
+    width: 120px;
+}
+.lokasi p{
+    font-weight: 400;
+    font-size:  20px;
+    line-height: 24px;
+    color:#919FAE;
+    
+}
+.lokasi.logo img{
+    width: 120px;   
+}
+.sejarah p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#919FAE;
+    
+}
+.prestasi p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#919FAE;
+    
+} 
+
+.details {
+    width: 50%;  
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;  
+    gap: 0 15px;
+}
+
+.services .fasilitas,
+.services .lokasi,
+.services .sejarah,
+.services .prestasi {
+    background-color: #FFFFFF;
+    border: 3px solid rgb(236, 230, 230);
+    box-sizing: border-box;
+    width: calc(50% - 15px);
+}
+.search img{
+    margin: -5px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+   
+}
+.portfolio p{
+    margin:10px 20px ;
+    
+    font-weight: 500;
+    
+    font-size: 20px;
+    line-height: 24px;
+    color:#919FAE;
+}
+.portfolio{
+    width: 60%;
+}
+
+.portfolio section {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.jobs {
+    width: 40%; 
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.align-items-start {
+    align-items: flex-start
+}
+.portfolio span{
+    margin-bottom: 20px;
+    margin-left:20px
+}
+.search{
+    
+    margin-left: 100px;
+}
+.about h2{
+    margin:  0 0 20px;
+}
+
+.jobs div {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.jobs span {
+    margin:10px 0 0 -80px;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+   font-weight: 700;
+}
+.jobs img{
+    width: 70px;
+}
+.jobs p{
+    margin:  25px 5px 50px  25px;
+}
+
+.righticon2{
+    margin-left:115px;
+}
+.sectiongallery span{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+}
+.sectiongallery{
+    padding: 50px 0  20px 50px;
+}
+
+.sectiongallery .gallery{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sectiongallery .gallery div {
+    
+    width: 33%;
+    
+}
+
+.sectiongallery .gallery div img {
+    width: 100%;
+}
+ .sectiongallery button{
+    margin-left: 50%;
+    margin-top: 51px;
+    width: 144px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0193DC;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+ }
+ .imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+ }
+
+
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #101524;
+}
+.banner{  
+    background-image: url(../Image/image\ 18.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+header .navigation {
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    width: 100%;
+
+    
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;    
+    margin: 0px auto;
+
+}
+
+li a{
+    color: aliceblue;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .surats div p{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+       
+}
+.surats button{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    width: 184px;
+    height: 40px;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+}
+ .surats {
+  display: flex;
+  justify-content: space-between;
+}
+.selamat-data button{
+    margin: 70px 0 0 60px ;
+    width: 184px;
+    height: 40px;
+    color:#FFFFFF;;
+    background-color: #0193DC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.selamat-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px 70px 70px 30%;
+    
+}
+.selamat-data p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.surat {
+    display: flex;
+}
+
+.surat p:last-child {
+    margin-left: 50px;
+}
+.surat p .fa-solid{
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.information{
+     border: 2px;
+     height: 40px;
+     text-align: center;
+     background-color: #2BA7E2;
+     border-radius: 5px;
+     margin-bottom: 25px;
+}
+.information p{
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.text-area{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 25px;
+   
+}
+.areainfo-texts{
+    border: 2px solid rgb(218, 211, 211);
+    margin: 50px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.imgfooter{
+    width: 60px;
+ }
+ .location, span{
+    font-weight: 700;
+    font-size: 14px;
+ }
+
+
+.media,.menus,.halamanumum p{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.media div{
+    display: inline;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(243, 238, 238);
+    
+}
+.hostname {
+    margin: 20px;
+    padding: 20px;  
+    border-top: 5px solid #E6E6E7;
+}
+.hostname p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer{
+    margin-top: 50px;
+}
+
